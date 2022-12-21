@@ -19,6 +19,4 @@ for i in range(1, n, 2):
     sum += my_list[i]
     initial_list.append(str(my_list[i]))
 
-print('На нечётных позициях списка стоят элементы ', end='')
-print(', '.join(initial_list), end='')  
-print(f'. Сумма элементов равна {sum}.')  
+print('На нечётных позициях списка стоят элементы ', ', '.join(initial_list), f'. Сумма элементов равна {sum}.') 
